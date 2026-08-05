@@ -15,7 +15,7 @@ abstract class UserRemoteDataSource {
 class UserRemoteDataSourceImp implements UserRemoteDataSource {
   final http.Client client;
   // Ajustado a puerto 8080 según tu backend
-final String baseUrl = "http://54.147.60.252:8080/api/v1";
+final String baseUrl = "http://44.208.6.86:8080/api/v1";
 
   UserRemoteDataSourceImp({required this.client});
 

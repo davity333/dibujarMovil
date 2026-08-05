@@ -13,7 +13,7 @@ abstract class DrawRemoteDataSource {
 
 class DrawRemoteDataSourceImpl implements DrawRemoteDataSource {
   final http.Client client;
-  final String baseUrl = "http://54.147.60.252:8080/api/v1";
+  final String baseUrl = "http://44.208.6.86:8080/api/v1";
 
 
 
